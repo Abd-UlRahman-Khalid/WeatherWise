@@ -1,0 +1,28 @@
+.header h2 {
+  font-size: 4rem;
+}
+
+.header .card {
+  border-radius: 25px;
+}
+
+.header .temp-card p {
+  font-size: 1.5rem;
+  color: #f1a20e;
+}
+.header .temp-card {
+  background-color: #174669;
+}
+
+.header h2 span {
+  font-size: 1.5rem;
+}
+
+.header h3 {
+  font-size: 1.5rem;
+  color: #88b25e;
+}
+
+.header .col-humidity {
+  background-color: #88b25e;
+}

@@ -1,0 +1,16 @@
+nav {
+  background-color: #174669;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  color: #f1a20e;
+}

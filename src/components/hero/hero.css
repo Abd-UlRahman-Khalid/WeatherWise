@@ -1,0 +1,19 @@
+.hero {
+  background-image: linear-gradient(
+      rgba(207, 227, 243, 0.459),
+      rgba(0, 0, 0, 0.797)
+    ),
+    url(../../assets/pexels-minan1398-1131458.jpg);
+  background-size: cover;
+}
+.hero input {
+  border-radius: 125px;
+  padding: 1rem 2rem;
+}
+.hero h1 {
+  font-size: 2.8rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
