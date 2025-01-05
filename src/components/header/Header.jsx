@@ -34,7 +34,7 @@ function Header() {
       <div className="flex justify-center  pb-5 ">
         <div className=" w-4/5 text-center md:text-left text-white grid-none md:grid grid-cols-12 gap-4 container">
           <div className="card temp-card col-span-12 mb-5  ">
-            <p className="px-10 pt-5">{city}</p>
+            <p className="px-10 pt-5">{city || "City"}</p>
             <div
               className=" flex-none md:flex flex-row-reverse
          justify-between  px-10 pb-5"
@@ -51,19 +51,19 @@ function Header() {
                   {(temp - 273.15).toFixed(1)}
                   <sup> o</sup>C
                 </h2>
-                <span>{weatherState}</span>
+                <span>{weatherState || "Sunny"}</span>
               </div>
             </div>
           </div>
           <div className="card col-span-6 col-humidity text-center ">
             <h2>
-              {humidity}
+              {humidity || 0}
               <span>%</span>
             </h2>
             <p className="pb-5">Humidity</p>
           </div>
           <div className="card col-span-6 text-black text-center">
-            <h2 className="font-bold">{windSpeed}</h2>
+            <h2 className="font-bold">{windSpeed || 0}</h2>
             <p className="">Km/h</p>
             <p>Wind Speed</p>
           </div>
