@@ -5,12 +5,12 @@ function NavBar() {
     <nav className=" p-5 w-full text-white fi tems-center">
       <div
         className="box flex
-     justify-between "
+     justify-between  px-12"
       >
-        <div className="logo font-bold">WeatherWise</div>
+        <div className="logo font-bold text-2xl">WeatherWise</div>
 
         <div className="nav-list">
-          <ul className="flex">
+          <ul className="flex text-lg ">
             <li className="active">Home</li>
             <li>Contact Us </li>
             <li>About</li>
