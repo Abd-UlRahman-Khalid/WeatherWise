@@ -41,7 +41,7 @@ WeatherWise is a sleek, user-friendly weather application that allows users to c
 WeatherWise/
 ├── public/
 ├── src/
-│   ├── assets/      # Reusable UI components
+│   ├── assets/      #Images and favIcon
 │   ├── components/      # Reusable UI components
 │   ├── store/           # Custom React hooks (e.g., Zustand store)
 │   └── App.js           # Main app component
