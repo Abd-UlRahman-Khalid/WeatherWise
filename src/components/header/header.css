@@ -19,10 +19,16 @@
 }
 
 .header h3 {
-  font-size: 1.5rem;
   color: #88b25e;
 }
 
 .header .col-humidity {
   background-color: #88b25e;
+}
+.header .temp-icon {
+  vertical-align: middle;
+}
+
+.header .text-5xl {
+  line-height: 2;
 }
