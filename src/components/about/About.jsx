@@ -65,11 +65,11 @@ function About() {
           <div>
             🔗 <strong>LinkedIn:</strong>
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/abd-ulrahman-khalid/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://linkedin.com/in/your-profile
+              https://www.linkedin.com/in/abd-ulrahman-khalid/
             </a>
           </div>
           <div>
