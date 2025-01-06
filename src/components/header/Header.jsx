@@ -32,7 +32,7 @@ function Header() {
   return (
     <div className="header py-10">
       <div className="flex justify-center  pb-5 ">
-        <div className=" w-4/5 text-center md:text-left text-white grid-none md:grid grid-cols-12 gap-4 container">
+        <div className=" w-4/5 text-center md:text-left text-white grid-none md:grid grid-cols-12 gap-4  container">
           <div className="card temp-card col-span-12 mb-5  ">
             <p className="px-10 pt-5">{city || "City"}</p>
             <div
@@ -55,17 +55,17 @@ function Header() {
               </div>
             </div>
           </div>
-          <div className="card col-span-6 col-humidity text-center ">
+          <div className="card col-span-6  col-humidity text-center mb-5 ">
             <h2>
               {humidity || 0}
               <span>%</span>
             </h2>
             <p className="pb-5">Humidity</p>
           </div>
-          <div className="card col-span-6 text-black text-center">
-            <h2 className="font-bold">{windSpeed || 0}</h2>
-            <p className="">Km/h</p>
-            <p>Wind Speed</p>
+          <div className="card col-span-6 text-black  mb-5 bg-[#E4F1F1] text-center">
+            <h2 className="font-bold text-[#174669]">{windSpeed || 0}</h2>
+            <p className="text-2xl -mt-5 -ml-13 text-[#C6C9CB] ">Km/h</p>
+            <p className="p-5">Wind Speed</p>
           </div>
         </div>
       </div>

@@ -1,0 +1,8 @@
+.about .pic {
+  width: 10rem;
+  border-radius: 70px;
+}
+
+.about span {
+  font-weight: bold;
+}
