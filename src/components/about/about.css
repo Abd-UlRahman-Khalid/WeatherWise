@@ -3,6 +3,20 @@
   border-radius: 70px;
 }
 
+.about .picsm {
+  width: 10rem;
+  border-radius: 50px;
+}
 .about span {
   font-weight: bold;
+}
+
+.about .contact {
+  border-radius: 20px;
+}
+.about .contact div {
+  padding-bottom: 1rem;
+}
+.about .contact div a:hover {
+  color: #f1a20e;
 }

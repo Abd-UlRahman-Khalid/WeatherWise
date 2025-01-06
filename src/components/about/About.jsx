@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="about">
       <div className="me flex mt-5  mx-10">
-        <div className="pic   border-t-4 border-l-4  border-[#88B25E] overflow-hidden ">
+        <div className="picsm md:pic   border-t-4 border-l-4  border-[#88B25E] overflow-hidden ">
           <img
             src={me}
             alt="Profile pic"
@@ -14,13 +14,17 @@ function About() {
           />
         </div>
         <div className="me-text mt-5 ml-5">
-          <h2 className="text-4xl text-[#88B25E]">Abd-UlRahman Khalid</h2>
-          <p className="text-xl text-[#928888]">Front-End Developer</p>
+          <h2 className="text-2xl md:text-4xl text-[#88B25E]">
+            Abd-UlRahman Khalid
+          </h2>
+          <p className="text-base md:text-xl text-[#928888]">
+            Front-End Developer
+          </p>
         </div>
       </div>
 
-      <div className="about-content m-10 text-[#928888]">
-        <p>
+      <div className="about-content md:flex  m-10 text-[#928888] ">
+        <p className="pb-10 mr-10 md:w-3/6">
           Hi, my name is Abd-UlRahman Khalid, and I'm a passionate front-end
           developer with a strong background in UI/UX design and graphic design.
           I specialize in creating visually appealing and user-friendly web
@@ -51,7 +55,7 @@ function About() {
           tackle challenging projects, and grow as a developer. I look forward
           to contributing to meaningful projects that make a difference!
         </p>
-        <div className="contact mt-10 text-[#928888]">
+        <div className="contact  md:mx-10 text-[#928888] bg-[#E4F1F1]  p-5">
           <div>
             🌐 <strong>GitHub:</strong>
             <a

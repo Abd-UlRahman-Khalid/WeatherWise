@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 function NavBar() {
+  const [activeBtn, setActiveBtn] = useState(`home`);
+
+  const handleActiveBtn = (btn) => {
+    setActiveBtn(btn);
+  };
   return (
     <nav className=" p-5 w-full text-white fi tems-center">
       <div
@@ -12,11 +17,23 @@ function NavBar() {
 
         <div className="nav-list">
           <ul className="flex text-lg  ">
-            <li className="active hover:text-[#f1a20e]">
-              <Link to="/">Home</Link>
+            <li
+              className={` ${
+                activeBtn === "home" && "text-[#f1a20e]"
+              } hover:text-[#f1a20e]`}
+            >
+              <Link to="/" onClick={() => handleActiveBtn("home")}>
+                Home
+              </Link>
             </li>
-            <li className="hover:text-[#f1a20e]">
-              <Link to="/about">About</Link>
+            <li
+              className={` ${
+                activeBtn === "about" && "text-[#f1a20e]"
+              } hover:text-[#f1a20e]`}
+            >
+              <Link to="/about" onClick={() => handleActiveBtn("about")}>
+                About
+              </Link>
             </li>
           </ul>
         </div>
